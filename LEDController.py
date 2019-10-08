@@ -27,6 +27,7 @@ while True:
         turnOff()
     elif answer == "e" or answer == "E":
         GPIO.cleanup()
+        print("Exiting program...")
+        exit()
     else:
         print("Invalid input")
-    
